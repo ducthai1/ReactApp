@@ -1,3 +1,19 @@
+## Folder Structure
+```
+src
+|__ components (Share component between features) (Dc khai bao de su dung chung cho tat ca feature)
+|  |__ Loading
+|     |__ index.jsx
+|     |__ styles.css
+|
+|__ features
+|  |__ Todo
+|     |__ components (components of feature Todo)
+|     |__ pages (pages of feature Todo)
+|     |__ index.jsx (entry point of feature Todo)
+|
+|__ App.js
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

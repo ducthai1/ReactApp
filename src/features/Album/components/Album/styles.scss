@@ -1,0 +1,18 @@
+.album {
+    &__thumnail {
+        & > img {
+            width: 190px;
+            border-radius: .5rem;
+            -webkit-border-radius: .5rem;
+            -moz-border-radius: .5rem;
+            -ms-border-radius: .5rem;
+            -o-border-radius: .5rem;
+}
+    }
+
+    &__name {
+        font: {
+            weight: bold;
+        }
+    }
+}
